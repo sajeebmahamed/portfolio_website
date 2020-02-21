@@ -125,7 +125,7 @@ p{
 }
 .latest-work img{
     width: 33.33%;
-    float: left;
+    float: none;
     transition: ease 0.4s all;
 }
 .latest-work img:hover{
@@ -351,6 +351,9 @@ footer{
         font-size: 23px;
         text-align: inherit;
         padding-bottom: 10px;
+    }
+    .client-feedback {
+        padding-top: 323px;
     }
     .m-device{
         width: 42%;
