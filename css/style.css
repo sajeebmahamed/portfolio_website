@@ -55,12 +55,20 @@ p{
 }
 .half-width img{
     width: 100%;
+    transition: ease 0.4s all;
+}
+.half-width img:hover{
+    transform: scale(1.1,1.1);
 }
 .btn{
-    padding: 14px 22px;
+    padding: 14px 40px;
     color: #fff;
     background-image: linear-gradient(90deg, #EC4F8F, #ED4B6F);
     border-radius: 10px;
+    transition: ease 0.3s all;
+}
+.btn:hover{
+    box-shadow: 3px 4px #333;
 }
 /* 2. Top-Banner Section */
 .top-banner{
@@ -74,6 +82,17 @@ p{
 }
 .banner-des{
     margin-top: 16%;
+    animation: bannerAni 30s forwards 0s ease;
+}
+@keyframes bannerAni{
+    0%{
+        transform: rotate(0) translateY(-100%);
+        opacity: 0;
+        }
+    10%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        }
 }
 .btn-sec{
     margin-top: 8%;
@@ -107,6 +126,10 @@ p{
 .latest-work img{
     width: 33.33%;
     float: left;
+    transition: ease 0.4s all;
+}
+.latest-work img:hover{
+    transform: scale(1.1,1.1);
 }
 /* 5. Client Feedback Section */
 
