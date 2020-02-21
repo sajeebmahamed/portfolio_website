@@ -236,3 +236,151 @@ footer{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+/* Media Query */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media screen and (max-width: 500px) {
+    header{
+        padding-top: 0;
+    }
+    h3 {
+        font-size: 26px;
+        color: #202428;
+    }
+    .top-banner h1 {
+        font-size: 34px;
+    }
+    .top-banner p{
+        width: 70%;
+    }
+    .banner-des {
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+    .top-banner .half-width img{
+        width: 50%;
+        margin-left: 32%;
+        margin-top: -8%;
+    }
+    .btn-sec {
+        margin-top: 4%;
+    }
+    .top-banner {
+        height: 530px;
+    }
+    .biography img{
+        margin-left: 8%;
+        width: 50%;
+    }
+    .biography-des {
+        width: 100%;
+        margin-left: -24%;
+        margin-top: 6%;
+        position: absolute;
+        top: 185%;
+        left: 33%;
+    }
+    .biography-des p{
+        width: 90%;
+    }
+    .biography {
+        height: 545px;
+    }
+
+    .latest-work img {
+        width: 30%;
+        margin: 10px 7%;
+    }
+    .latest-work h1 {
+        margin-left: 16%;
+        font-size: 23px;
+        text-align: inherit;
+        padding-bottom: 10px;
+    }
+    .m-device{
+        width: 42%;
+
+    }
+    .get-touch h1 {
+        text-align: inherit;
+        padding-bottom: 20px;
+        margin-left: 12%;
+    }
+    .common-touch {
+        width: 37%;
+        padding: 30px 0px;
+        float: none;
+    }
+    iframe{
+        width: 100%;
+        margin-left: 7%;
+    }
+        .msg_txt h3 {
+        font-size: 1.2em;
+        letter-spacing: 1pt;
+    }
+    footer {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        float: left;
+        text-align: center;
+        background-image: none;
+    }
+
+  
+}
