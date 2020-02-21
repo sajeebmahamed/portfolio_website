@@ -12,6 +12,9 @@
 *{
     margin: 0;
 }
+body{
+    font-family: 'Montserrat', ;
+}
 header{
     padding-top: 85px;
 }
@@ -125,7 +128,7 @@ p{
 }
 .latest-work img{
     width: 33.33%;
-    float: none;
+    float: left;
     transition: ease 0.4s all;
 }
 .latest-work img:hover{
